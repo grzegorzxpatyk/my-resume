@@ -1,0 +1,11 @@
+@import './scss/variables';
+
+.resume {
+    // width: 21cm;
+    min-width: 40vw;
+    // height: 29.7cm;
+    min-height: 75vh;
+    background: $background-light;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
