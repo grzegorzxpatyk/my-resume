@@ -5,7 +5,7 @@ import './Resume.scss';
 export default function Resume(props) {
     return (
         <div className="resume">
-            <Bio {...props}></Bio>
+            <Bio {...props.bio}></Bio>
         </div>
     );
 }

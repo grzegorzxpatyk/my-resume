@@ -12,6 +12,7 @@ export default function Bio(props) {
                 <span className="email">email: {props.email}</span>
                 <span className="phone">phone: {props.phoneNumber}</span>
             </div>
+            <div className="about">{props.about}</div>
         </div>
     );
 }
