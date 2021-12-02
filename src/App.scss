@@ -2,11 +2,11 @@
 @import './scss/_fonts';
 
 .App {
-    text-align: center;
+    color: $primaryFontColor;
 }
 
 .App-header {
-    background-color: $background;
+    background-color: $primary;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,5 @@
     justify-content: center;
     font-size: 2rem;
     color: white;
-    font-family: $primary-font-family;
-}
-
-@media print {
-    body {
-        width: 21cm;
-        height: 29.7cm;
-        padding: 30mm 45mm 30mm 45mm;
-    }
+    font-family: $primaryFontFamily;
 }

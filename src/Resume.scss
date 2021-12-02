@@ -1,11 +1,11 @@
 @import './scss/variables';
 
 .resume {
-    // width: 21cm;
+    width: 60vw;
     min-width: 40vw;
-    // height: 29.7cm;
+    height: 80vh;
     min-height: 75vh;
-    background: $background-light;
+    background: $primaryLight;
     padding: 2.5rem;
     border-radius: 1rem;
 }
