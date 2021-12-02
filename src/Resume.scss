@@ -1,11 +1,20 @@
 @import './scss/variables';
 
 .resume {
-    width: 60vw;
+    width: 21cm;
     min-width: 40vw;
-    height: 80vh;
+    height: 29.7cm;
     min-height: 75vh;
     background: $primary-light;
     padding: 2.5rem;
     border-radius: 1rem;
+    margin: 4rem;
+}
+
+.section-title {
+    font-size: 1.4rem;
+    border-bottom: 1px solid $primary-lighter;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
 }

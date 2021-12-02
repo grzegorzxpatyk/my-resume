@@ -1,3 +1,5 @@
+@import './scss/variables';
+
 .bio {
     width: 100%;
 }
@@ -5,7 +7,7 @@
 .full-name {
     text-transform: uppercase;
     text-align: left;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid $primary-lighter;
 }
 
 .first-name {
