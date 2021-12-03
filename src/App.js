@@ -35,6 +35,42 @@ const data = {
                 'Prepared architectural designs for residential, commercial and public objects using Blender and Adobe Photoshop. Created visualizations and animations for competition designs. Took part in meetings with clients.',
         },
     ],
+    education: [
+        {
+            name: 'Cracow University of Technology',
+            degree: 'MSc in Architecture and Urban Planning',
+            duration: 'Feb 2019 - Sep 2020',
+            location: 'Cracow',
+        },
+        {
+            name: 'Lublin University of Technology',
+            degree: 'BSc in Architecture and Urban Planning',
+            duration: 'Oct 2015 - Jan 2019',
+            location: 'Lublin',
+        },
+    ],
+    skills: [
+        {
+            name: 'JavaScript',
+            level: '4',
+        },
+        {
+            name: 'HTML',
+            level: '5',
+        },
+        {
+            name: 'CSS',
+            level: '5',
+        },
+        {
+            name: 'Svelte',
+            level: '3',
+        },
+        {
+            name: 'React',
+            level: '3',
+        },
+    ],
 };
 
 function App() {
