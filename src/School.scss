@@ -1,0 +1,48 @@
+@import './scss/variables';
+
+.school {
+    margin-bottom: 1rem;
+}
+
+.school:last-of-type {
+    margin-bottom: 0;
+}
+
+.school-details {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h3.school-name {
+    font-size: 1.2rem;
+    margin: 0;
+    border-bottom: 1px solid $primary-lighter;
+    font-weight: 300;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.duration {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.location {
+    font-size: 0.9rem;
+}
+
+.company::after {
+    content: ', ';
+}
+
+.location {
+    font-weight: 100;
+}
+
+.description {
+    font-weight: 200;
+}
