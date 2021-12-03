@@ -18,3 +18,16 @@
     text-transform: uppercase;
     font-weight: 400;
 }
+
+.interests {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.interest::after {
+    content: ', ';
+}
+
+.interest:last-of-type::after {
+    content: '.';
+}
