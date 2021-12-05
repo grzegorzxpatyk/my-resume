@@ -15,11 +15,15 @@ export default function Bio(props) {
                 <span className="phone">phone: {props.phoneNumber}</span>
                 <span className="social-icons">
                     <a href="https://www.linkedin.com/in/grzegorz-patyk">
+                        {/* <i class="fab fa-lg fa-linkedin-in"></i> */}
                         LinkedIn
                     </a>
                 </span>
                 <span className="social-icons">
-                    <a href="https://github.com/grzegorzp4tyk">GitHub</a>
+                    <a href="https://github.com/grzegorzp4tyk">
+                        {/* <i class="fab fa-lg fa-github"></i> */}
+                        GitHub
+                    </a>
                 </span>
             </div>
             <div className="about">{props.about}</div>
