@@ -7,7 +7,7 @@ const data = {
         lastName: 'Patyk',
         email: 'grzegorzxpatyk@gmail.com',
         phoneNumber: '(+48) 662 444 438',
-        about: 'Creative Front End Developer taking first steps in software development industry. Trained architect, self-taught software developer. Wishing to bring my problem solving and analytical thinking skills from architecture into web development business. Passionate about dogs, visual arts and sustainable architecture.',
+        about: 'Creative Front End Developer taking first steps in software development industry. Trained architect, self-taught software developer. Wishing to bring my problem solving and analytical thinking skills from architecture into web development business.',
     },
     experience: [
         {
