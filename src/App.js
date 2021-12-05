@@ -16,7 +16,7 @@ const data = {
             company: 'Beeanco',
             location: 'Remote',
             description:
-                'Implemented new Svelte components of the web application, improved already existing ones. Standardized the output to a responsive, mobile-first approach using SASS. Worked on the verge of back-end and front-end using WordPress. Effectively translated UI designs to code implementations.',
+                'Implementation of new <em>Svelte</em> components of the web application, improvement of existing components. Standardization of the output to a <em>responsive, mobile-first</em> approach using <em>SASS</em>. Working on the verge of back-end and front-end using <em>WordPress</em>. Effective translation of UI designs to code implementations.',
         },
         {
             position: 'Freelance web developer',
@@ -24,7 +24,7 @@ const data = {
             company: 'Freelance',
             location: 'Remote',
             description:
-                'Created responsive websites for various clients, using Wordpress, PHP, JavaScript, CSS and HTML.',
+                'Handling all verbal and written communications with clients and hosting companies. Meeting with clients to review website designs and gather their feedback. Design, build and maintenance of new responsive websites using <em>Wordpress</em>, <em>JavaScript</em>, <em>SASS</em>(with <em>SCSS</em> syntax) and <em>HTML</em>.',
         },
         {
             position: 'Junior Architect',
@@ -32,7 +32,7 @@ const data = {
             company: 'K3 Architektci',
             location: 'Cracow',
             description:
-                'Prepared architectural designs for residential, commercial and public objects using Blender and Adobe Photoshop. Created visualizations and animations for competition designs. Took part in meetings with clients.',
+                'Preparation of architectural designs for residential, commercial and public objects using <em>Blender</em> and <em>Adobe Photoshop</em>. Creating visualizations and animations for competition designs. Taking part in meetings with clients.',
         },
     ],
     education: [
@@ -71,15 +71,13 @@ const data = {
             level: '3',
         },
     ],
-    interests: ['Design', 'Architecture', 'Dogs', 'Snowboarding'],
+    interests: ['Design', 'Architecture', 'Snowboarding', 'Dogs🖤'],
 };
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <Resume {...data}></Resume>
-            </header>
+            <Resume {...data}></Resume>
         </div>
     );
 }

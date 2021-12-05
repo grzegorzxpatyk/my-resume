@@ -4,12 +4,12 @@ import './Experience.scss';
 
 export default function Experience(props) {
     return (
-        <div className="experience">
+        <section className="experience">
             <h2 className="section-title">Experience</h2>
             {props.jobs.map((job, jobIndex) => {
                 console.log(`${job.position}: ${jobIndex}`);
                 return <Job key={jobIndex} {...job} />;
             })}
-        </div>
+        </section>
     );
 }

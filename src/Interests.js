@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Interests(props) {
     return (
-        <div className="interests">
+        <section className="interests">
             <h3 className="section-title">Interests</h3>
             {props.interests.map((thing, i) => {
                 return (
@@ -11,6 +11,6 @@ export default function Interests(props) {
                     </span>
                 );
             })}
-        </div>
+        </section>
     );
 }

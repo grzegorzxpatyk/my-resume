@@ -8,12 +8,12 @@ import './Resume.scss';
 
 export default function Resume(props) {
     return (
-        <div className="resume">
+        <main className="resume">
             <Bio {...props.bio}></Bio>
             <Experience jobs={props.experience} />
             <Education schools={props.education} />
             <Skills skills={props.skills} />
             <Interests interests={props.interests}></Interests>
-        </div>
+        </main>
     );
 }
