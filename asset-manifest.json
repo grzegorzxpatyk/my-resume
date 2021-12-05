@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-resume-react/static/css/main.232f4ad0.chunk.css",
+    "main.js": "/my-resume-react/static/js/main.024d8d9f.chunk.js",
+    "main.js.map": "/my-resume-react/static/js/main.024d8d9f.chunk.js.map",
+    "runtime-main.js": "/my-resume-react/static/js/runtime-main.92cd4d93.js",
+    "runtime-main.js.map": "/my-resume-react/static/js/runtime-main.92cd4d93.js.map",
+    "static/js/2.4cca8f42.chunk.js": "/my-resume-react/static/js/2.4cca8f42.chunk.js",
+    "static/js/2.4cca8f42.chunk.js.map": "/my-resume-react/static/js/2.4cca8f42.chunk.js.map",
+    "index.html": "/my-resume-react/index.html",
+    "static/css/main.232f4ad0.chunk.css.map": "/my-resume-react/static/css/main.232f4ad0.chunk.css.map",
+    "static/js/2.4cca8f42.chunk.js.LICENSE.txt": "/my-resume-react/static/js/2.4cca8f42.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92cd4d93.js",
+    "static/js/2.4cca8f42.chunk.js",
+    "static/css/main.232f4ad0.chunk.css",
+    "static/js/main.024d8d9f.chunk.js"
+  ]
+}
