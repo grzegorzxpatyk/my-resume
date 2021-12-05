@@ -71,7 +71,7 @@ const data = {
             level: '3',
         },
     ],
-    interests: ['Design', 'Architecture', 'Snowboarding', 'Dogs🖤'],
+    interests: ['Design', 'Architecture', 'Snowboarding', 'Dogs🐶'],
 };
 
 function App() {
