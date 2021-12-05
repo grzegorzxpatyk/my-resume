@@ -13,6 +13,14 @@ export default function Bio(props) {
                     email: <a href={`mailto:${props.email}`}>{props.email}</a>
                 </span>
                 <span className="phone">phone: {props.phoneNumber}</span>
+                <span className="social-icons">
+                    <a href="https://www.linkedin.com/in/grzegorz-patyk">
+                        LinkedIn
+                    </a>
+                </span>
+                <span className="social-icons">
+                    <a href="https://github.com/grzegorzp4tyk">GitHub</a>
+                </span>
             </div>
             <div className="about">{props.about}</div>
         </header>
