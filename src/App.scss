@@ -1,37 +1,31 @@
 @import './scss/_variables';
 @import './scss/_fonts';
 
-.App {
-    color: $primary-font-color;
+html {
+    font-size: 18px;
 }
 
-.App-header {
+.App {
     background-color: $primary;
-    //     // min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    color: white;
-    font-family: $primaryFontFamily;
 }
 
 @media print {
-    .App-header {
-        // width: 21cm;
-        // height: 29.7cm;
+    html {
+        font-size: 15px;
     }
 
-    .resume {
-        width: 100%;
-        height: 100%;
-        background: $accent-pink;
-        // margin: 20mm !important;
-        // padding: 20mm 20mm;
+    .App {
+        margin: 0;
+        padding: 0;
     }
+}
 
-    .full-name {
-        margin-top: 0;
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
     }
 }

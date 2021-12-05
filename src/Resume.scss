@@ -1,22 +1,26 @@
 @import './scss/variables';
+@import './scss/fonts';
 
 .resume {
     width: 21cm;
     min-width: 40vw;
-    height: 29.7cm;
-    min-height: 75vh;
+    min-height: 29.7cm;
+    height: fit-content;
     background: $primary-light;
     padding: 2.5rem;
     border-radius: 1rem;
     margin: 4rem;
+    font-size: 2rem;
+    color: $primary-font-color;
+    font-family: $primary-font-family;
 }
 
 .section-title {
-    font-size: 1.4rem;
-    border-bottom: 1px solid $border-color-section-title;
+    font-size: 1.575rem;
+    border-bottom: 2px solid $border-color-section-title;
     margin-bottom: 0.8rem;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .interests {
@@ -30,4 +34,58 @@
 
 .interest:last-of-type::after {
     content: '.';
+}
+
+a {
+    text-decoration: none;
+    color: $primary-font-dark;
+    transition: color 0.15s ease-in-out;
+}
+
+a:hover {
+    color: $accent-blue;
+}
+
+section {
+    margin-bottom: 0;
+}
+
+@media print {
+    .resume {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        color: $primary-light;
+        border-radius: 0;
+    }
+
+    a {
+        color: $primary-light;
+    }
+
+    .full-name {
+        border-bottom: 4px solid $primary-light;
+        line-height: 2.5rem;
+        margin-top: 0;
+    }
+
+    .section-title {
+        border-bottom: 2px solid $primary-lighter;
+    }
+
+    section {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .school,
+    .job {
+        margin-bottom: 0;
+    }
+
+    .social-icons {
+        display: none;
+    }
 }
