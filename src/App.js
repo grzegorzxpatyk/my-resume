@@ -70,6 +70,10 @@ const data = {
             name: 'React',
             level: '3',
         },
+        {
+            name: 'Git',
+            level: '3',
+        },
     ],
     interests: ['Design', 'Architecture', 'Snowboarding', 'Dogs🐶'],
 };
