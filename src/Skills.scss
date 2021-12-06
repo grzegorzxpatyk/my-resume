@@ -28,6 +28,13 @@ h4.skill-name {
     font-weight: 200;
 }
 
-.level::after {
-    content: '/5';
+.skill-level {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: $primary-font-light;
+}
+
+.skill-level.checked {
+    background: $primary-font-dark;
 }
