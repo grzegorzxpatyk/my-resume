@@ -10,13 +10,12 @@ export default function Job(props) {
             <div className="job-details">
                 <span className="company">{props.company}</span>
                 <span className="location">{props.location}</span>
-                <p className="description">
-                    <div
-                        dangerouslySetInnerHTML={{
-                            __html: `${props.description}`,
-                        }}
-                    />
-                </p>
+                <p
+                    className="description"
+                    dangerouslySetInnerHTML={{
+                        __html: `${props.description}`,
+                    }}
+                ></p>
             </div>
         </div>
     );

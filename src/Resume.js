@@ -3,7 +3,6 @@ import Bio from './Bio';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
-import Interests from './Interests';
 import './Resume.scss';
 
 export default function Resume(props) {
@@ -13,7 +12,6 @@ export default function Resume(props) {
             <Experience jobs={props.experience} />
             <Education schools={props.education} />
             <Skills skills={props.skills} />
-            <Interests interests={props.interests}></Interests>
         </main>
     );
 }

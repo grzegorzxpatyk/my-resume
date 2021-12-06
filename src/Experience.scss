@@ -5,7 +5,7 @@
 }
 
 .job:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 0.4rem;
 }
 
 .job-details {
@@ -44,4 +44,6 @@ h3.job-position {
 .description {
     font-weight: 200;
     text-align: justify;
+    // border: 1px dashed red;
+    margin: 0.4rem 0 0.6rem;
 }

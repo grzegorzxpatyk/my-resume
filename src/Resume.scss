@@ -4,21 +4,22 @@
 .resume {
     width: 21cm;
     min-width: 40vw;
-    min-height: 29.7cm;
+    // min-height: 29.7cm;
     height: fit-content;
     background: $primary-light;
     padding: 2.5rem;
-    border-radius: 1rem;
+    // border-radius: 1rem;
     margin: 4rem;
     font-size: 2rem;
     color: $primary-font-color;
     font-family: $primary-font-family;
+    box-shadow: 0 0 3rem #000000;
 }
 
 .section-title {
     font-size: 1.575rem;
     border-bottom: 2px solid $border-color-section-title;
-    margin-bottom: 0.8rem;
+    margin: 0.4rem 0 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -46,13 +47,44 @@ a:hover {
     color: $accent-blue;
 }
 
-section {
-    margin-bottom: 0;
+section,
+header {
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+}
+
+.contact-info {
+    font-size: 0.8rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-grow: 2;
+    margin: 0 0 0;
+}
+
+.social-icons {
+    & > a {
+        height: 1.55rem;
+        // margin: 0;
+        // padding: 0;
+    }
+    font-size: 1.4rem;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+em {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
     .resume {
         width: 80vw;
+        min-width: 300px;
         padding: 2rem 1.5rem;
         margin: 1rem 1vw;
         height: fit-content;
@@ -61,11 +93,25 @@ section {
     .contact-info {
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 0.9rem;
+        margin: 1rem 0;
     }
 
     .skills-list {
         display: flex;
         flex-direction: column;
+    }
+
+    .social-icons {
+        font-size: 1.6rem;
+        width: 4rem;
+        justify-content: space-between;
+    }
+
+    .title-contact {
+        flex-direction: column;
+        align-items: unset;
     }
 }
 
@@ -73,11 +119,15 @@ section {
     .resume {
         margin: 0;
         padding: 0;
+        min-width: 100%;
         width: 100%;
-        height: 100%;
+        min-height: 100%;
+        height: 29.7cm;
+        max-height: 100%;
         background: white;
         color: $primary-light;
         border-radius: 0;
+        box-shadow: none;
     }
 
     a {
@@ -94,17 +144,12 @@ section {
         border-bottom: 2px solid $primary-lighter;
     }
 
-    section {
-        margin-bottom: 0;
-        padding-bottom: 0;
+    .contact-info {
+        font-size: 1rem;
     }
 
     .school,
     .job {
         margin-bottom: 0;
-    }
-
-    .social-icons {
-        display: none;
     }
 }

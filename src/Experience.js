@@ -7,7 +7,6 @@ export default function Experience(props) {
         <section className="experience">
             <h2 className="section-title">Experience</h2>
             {props.jobs.map((job, jobIndex) => {
-                console.log(`${job.position}: ${jobIndex}`);
                 return <Job key={jobIndex} {...job} />;
             })}
         </section>

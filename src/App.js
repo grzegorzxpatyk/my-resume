@@ -5,9 +5,10 @@ const data = {
     bio: {
         firstName: 'Grzegorz',
         lastName: 'Patyk',
+        title: 'Frontend Developer',
         email: 'grzegorzxpatyk@gmail.com',
         phoneNumber: '(+48) 662 444 438',
-        about: 'Creative Front End Developer taking first steps in software development industry. Trained architect, self-taught software developer. Wishing to bring my problem solving and analytical thinking skills from architecture into web development business.',
+        about: 'Creative Front End Developer taking first steps in software development industry. Trained architect, self-taught software developer. Wishing to bring my problem solving and analytical thinking skills from architecture into web development business. Passionate about design, architecture, snowboarding and dogs 🐶',
     },
     experience: [
         {
@@ -20,7 +21,7 @@ const data = {
         },
         {
             position: 'Freelance web developer',
-            duration: 'Feb 2021 - Present',
+            duration: 'Feb 2020 - Present',
             company: 'Freelance',
             location: 'Remote',
             description:
