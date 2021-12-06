@@ -50,6 +50,25 @@ section {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .resume {
+        width: 80vw;
+        padding: 2rem 1.5rem;
+        margin: 1rem 1vw;
+        height: fit-content;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media print {
     .resume {
         margin: 0;
