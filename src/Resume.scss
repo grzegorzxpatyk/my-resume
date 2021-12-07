@@ -4,11 +4,9 @@
 .resume {
     width: 21cm;
     min-width: 40vw;
-    // min-height: 29.7cm;
     height: fit-content;
     background: $primary-light;
     padding: 2.5rem;
-    // border-radius: 1rem;
     margin: 4rem;
     font-size: 2rem;
     color: $primary-font-color;
@@ -67,8 +65,6 @@ header {
 .social-icons {
     & > a {
         height: 1.55rem;
-        // margin: 0;
-        // padding: 0;
     }
     font-size: 1.4rem;
     width: 5rem;
