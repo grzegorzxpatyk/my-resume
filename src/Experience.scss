@@ -14,9 +14,9 @@
 
 h3.job-position {
     font-size: 1.2rem;
-    margin: 0;
+    margin-bottom: 0;
     border-bottom: 1px solid $primary-lighter;
-    font-weight: 400;
+    font-weight: 500;
     grid-row: 1;
     display: flex;
     justify-content: space-between;
@@ -38,12 +38,12 @@ h3.job-position {
 }
 
 .location {
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .description {
-    font-weight: 200;
+    font-weight: 400;
     text-align: justify;
-    // border: 1px dashed red;
-    margin: 0.4rem 0 0.6rem;
+    line-height: 1.3rem;
+    // margin: 0.4rem 0 0.6rem;
 }

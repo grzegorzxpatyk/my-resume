@@ -1,4 +1,5 @@
 @import './scss/variables';
+@import './scss/fonts';
 
 .skills-list {
     display: grid;
@@ -13,19 +14,19 @@
     align-items: flex-end;
     margin: 0;
     font-size: 1rem;
-    font-weight: 200;
+    // font-weight: 200;
     padding: 0 1rem 0 0;
-    // border-right: 1px solid $primary-lighter;
 }
 
 h4.skill-name {
     display: inline;
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .level {
-    font-weight: 200;
+    font-weight: 800;
+    font-family: $primary-font-family;
 }
 
 .skill-level {

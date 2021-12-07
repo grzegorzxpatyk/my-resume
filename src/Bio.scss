@@ -1,4 +1,5 @@
 @import './scss/variables';
+@import './scss/fonts';
 
 .bio {
     width: 100%;
@@ -7,6 +8,7 @@
 .full-name {
     font-size: 2.5rem;
     line-height: 3rem;
+    font-family: $primary-font-family;
     text-transform: uppercase;
     text-align: left;
     border-bottom: 4px solid $primary-font-color;
@@ -29,7 +31,7 @@
     display: inline-block;
     font-size: 1.2rem;
     margin: 0 0 0;
-    font-weight: 300;
+    font-weight: 400;
     flex-grow: 1;
 }
 
@@ -43,5 +45,6 @@
 
 .about {
     font-size: 1rem;
+    line-height: 1.3rem;
     text-align: justify;
 }
