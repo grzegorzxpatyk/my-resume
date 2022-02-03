@@ -12,8 +12,16 @@ const data = {
     },
     experience: [
         {
+            position: 'Junior Frontend developer',
+            duration: 'Jan 2022 - Present',
+            company: 'ALTEN',
+            location: 'Cracow',
+            description:
+                'Development of the internal applications using PHP, jQuery, JavaScript and SASS. Testing API with Swagger and Postman.',
+        },
+        {
             position: 'Frontend development intern',
-            duration: 'Jun 2021 - Present',
+            duration: 'Jun 2021 - Dec 2021',
             company: 'Beeanco',
             location: 'Remote',
             description:
@@ -27,14 +35,14 @@ const data = {
             description:
                 'Handling all verbal and written communications with clients and hosting companies. Meeting with clients to review website designs and gather their feedback. Design, build and maintenance of new responsive websites using <em>Wordpress</em>, <em>JavaScript</em>, <em>SASS</em>(with <em>SCSS</em> syntax) and <em>HTML</em>.',
         },
-        {
-            position: 'Junior Architect',
-            duration: 'Jul 2020 - Feb 2021',
-            company: 'K3 Architektci',
-            location: 'Cracow',
-            description:
-                'Preparation of architectural designs for residential, commercial and public objects using <em>Blender</em> and <em>Adobe Photoshop</em>. Creating visualizations and animations for competition designs. Taking part in meetings with clients.',
-        },
+        // {
+        //     position: 'Junior Architect',
+        //     duration: 'Jul 2020 - Feb 2021',
+        //     company: 'K3 Architektci',
+        //     location: 'Cracow',
+        //     description:
+        //         'Preparation of architectural designs for residential, commercial and public objects using <em>Blender</em> and <em>Adobe Photoshop</em>. Creating visualizations and animations for competition designs. Taking part in meetings with clients.',
+        // },
     ],
     education: [
         {
