@@ -17,7 +17,7 @@ const data = {
             company: 'ALTEN',
             location: 'Cracow',
             description:
-                'Development of the internal applications using PHP, jQuery, JavaScript and SASS. One of my daily tasks was to implement client-side form validation, with the use of js and regular expressions. Testing API with Swagger and Postman.',
+                'Development of the internal applications using <em>PHP, jQuery, JavaScript and SASS</em>. One of my daily tasks was to implement client-side form validation, with the use of <em>js and regular expressions</em>. Testing API with <em>Swagger</em> and <em>Postman</em>.',
         },
         {
             position: 'Frontend development intern',
