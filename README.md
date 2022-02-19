@@ -1,5 +1,7 @@
 # My resume in React
 
+The goal is to implement the resume in a component-based architecture in react. It is a project that is the part of the learing by doing process, so there maybe a lot of mistakes. Feel free to let me know if you see any.
+
 ## React Project Structure
 
 -   App - statefull component, fetches data.
