@@ -17,7 +17,7 @@ const data = {
             company: 'ALTEN',
             location: 'Cracow',
             description:
-                'Development of the internal applications using <em>PHP, jQuery, JavaScript and SASS</em>. One of my daily tasks was to implement client-side form validation, with the use of <em>js and regular expressions</em>. Testing API with <em>Swagger</em> and <em>Postman</em>.',
+                'Development of the internal applications using <em>PHP, jQuery, JavaScript and SASS</em>. Implementation of client-side form validation, with the use of <em>js and regular expressions</em>. Testing API with <em>Swagger</em> and <em>Postman</em>.',
         },
         {
             position: 'Frontend development intern',
@@ -25,7 +25,7 @@ const data = {
             company: 'Beeanco',
             location: 'Remote',
             description:
-                'Implementation of new <em>Svelte</em> components of the web application, improvement of existing components. Standardization of the output to a <em>responsive, mobile-first</em> approach using <em>SASS</em>. Working on the verge of back-end and front-end using <em>WordPress</em>. Effective translation of UI designs to code implementations.',
+                'Implementation of new <em>Svelte</em> components of the web application, improvement of existing components. Standardization of the output to a <em>responsive, mobile-first</em> approach using <em>SASS</em>. Working on the verge of back-end and front-end with <em>WordPress as headless CMS</em>. Effective translation of UI designs to code implementations.',
         },
         {
             position: 'Freelance web developer',
