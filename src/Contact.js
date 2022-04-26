@@ -26,7 +26,7 @@ export default function Contact(props) {
                 {/* </span>
             <span className="social-icons"> */}
                 <a
-                    href="https://github.com/grzegorzp4tyk"
+                    href="https://github.com/grzegorzxpatyk"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
