@@ -13,6 +13,14 @@ const data = {
     experience: [
         {
             position: 'Junior Frontend developer',
+            duration: 'Jun 2022 - Present',
+            company: 'Transition Technologies MS',
+            location: 'Cracow/Remote',
+            description:
+                'Development of frontend layer of multiple web apps using React.js, JavaScript, TypeScript, CSS & SASS.',
+        },
+        {
+            position: 'Junior Frontend developer',
             duration: 'Jan 2022 - Present',
             company: 'ALTEN',
             location: 'Cracow',
