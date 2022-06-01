@@ -125,6 +125,10 @@ em {
         color: $primary-light;
         border-radius: 0;
         box-shadow: none;
+        section,
+        header {
+            margin-bottom: 1rem;
+        }
     }
 
     a {
