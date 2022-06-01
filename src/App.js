@@ -21,7 +21,7 @@ const data = {
         },
         {
             position: 'Junior Frontend developer',
-            duration: 'Jan 2022 - Present',
+            duration: 'Jan 2022 - May 2022',
             company: 'ALTEN',
             location: 'Cracow',
             description:
