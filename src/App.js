@@ -61,27 +61,27 @@ const data = {
     skills: [
         {
             name: 'JavaScript',
-            level: '4',
-        },
-        {
-            name: 'HTML',
             level: '5',
-        },
-        {
-            name: 'CSS',
-            level: '5',
-        },
-        {
-            name: 'Svelte',
-            level: '3',
         },
         {
             name: 'React',
             level: '3',
         },
         {
-            name: 'Git',
+            name: 'Svelte',
             level: '3',
+        },
+        {
+            name: 'CSS',
+            level: '5',
+        },
+        {
+            name: 'HTML',
+            level: '5',
+        },
+        {
+            name: 'Git',
+            level: '4',
         },
     ],
     interests: ['Design', 'Architecture', 'Snowboarding', 'Dogs🐶'],
