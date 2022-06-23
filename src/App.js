@@ -17,7 +17,7 @@ const data = {
             company: 'Transition Technologies MS',
             location: 'Cracow/Remote',
             description:
-                'Development of frontend layer in web applications, using <em>JavaScript / TypeScript</em>, <em>React</em>, <em>Redux</em>, & <em>CSS / SASS</em>. Effective implementation of User Interfaces using <em>react-bootstrap</em> UI library.',
+                'Development of frontend layer in web applications, using <strong>JavaScript / TypeScript</strong>, <strong>React</strong>, <strong>Redux</strong>, & <strong>CSS / SASS</strong>. Effective implementation of User Interfaces using <strong>react-bootstrap</strong> UI library.',
         },
         {
             position: 'Junior Frontend developer',
@@ -25,7 +25,7 @@ const data = {
             company: 'ALTEN',
             location: 'Cracow',
             description:
-                'Development of the internal applications using <em>PHP, jQuery, JavaScript and SASS</em>. Implementation of client-side form validation, with the use of <em>js and regular expressions</em>. Testing API with <em>Swagger</em> and <em>Postman</em>.',
+                'Development of the internal applications using <strong>PHP, jQuery, JavaScript and SASS</strong>. Implementation of client-side form validation, with the use of <strong>js and regular expressions</strong>. Testing API with <strong>Swagger</strong> and <strong>Postman</strong>.',
         },
         {
             position: 'Frontend development intern',
@@ -33,7 +33,7 @@ const data = {
             company: 'Beeanco',
             location: 'Remote',
             description:
-                'Implementation of new <em>Svelte</em> components of the web application, improvement of existing components. Standardization of the output to a <em>responsive, mobile-first</em> approach using <em>SASS</em>. Working on the verge of back-end and front-end with <em>WordPress as headless CMS</em>. Effective translation of UI designs to code implementations.',
+                'Implementation of new <strong>Svelte</strong> components of the web application, improvement of existing components. Standardization of the output to a <strong>responsive, mobile-first</strong> approach using <strong>SASS</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong>. Effective translation of UI designs to code implementations.',
         },
         {
             position: 'Freelance web developer',
@@ -41,7 +41,7 @@ const data = {
             company: 'Freelance',
             location: 'Remote',
             description:
-                'Handling all verbal and written communications with clients and hosting companies. Meeting with clients to review website designs and gather their feedback. Design, build and maintenance of new responsive websites using <em>Wordpress</em>, <em>JavaScript</em>, <em>SASS</em>(with <em>SCSS</em> syntax) and <em>HTML</em>.',
+                'Handling all verbal and written communications with clients and hosting companies. Meeting with clients to review website designs and gather their feedback. Design, build and maintenance of new responsive websites using <strong>Wordpress</strong>, <strong>JavaScript</strong>, <strong>SASS</strong>(with <strong>SCSS</strong> syntax) and <strong>HTML</strong>.',
         },
     ],
     education: [
