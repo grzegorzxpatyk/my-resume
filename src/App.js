@@ -17,7 +17,7 @@ const data = {
             company: 'Transition Technologies MS',
             location: 'Cracow/Remote',
             description:
-                'Development of frontend layer of multiple web apps using <em>React.js</em>, <em>JavaScript / TypeScript</em> & <em>CSS / SASS</em>.',
+                'Development of frontend layer in web applications, using <em>JavaScript / TypeScript</em>, <em>React</em>, <em>Redux</em>, & <em>CSS / SASS</em>. Effective implementation of User Interfaces using <em>react-bootstrap</em> UI library.',
         },
         {
             position: 'Junior Frontend developer',
