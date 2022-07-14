@@ -65,7 +65,7 @@ const data = {
         },
         {
             name: 'React',
-            level: '3',
+            level: '4',
         },
         {
             name: 'Svelte',
