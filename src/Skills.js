@@ -8,7 +8,14 @@ export default function Skills(props) {
             <h3 className="section-title">Skills</h3>
             <div className="skills-list">
                 {props.skills.map((skill, skillIndex) => {
-                    return <Skill key={skillIndex} {...skill} />;
+                    return (
+                        <span className="skill">
+                            {skill}
+                            {skillIndex === props.skills.length - 1
+                                ? '.'
+                                : ', '}
+                        </span>
+                    );
                 })}
             </div>
         </section>

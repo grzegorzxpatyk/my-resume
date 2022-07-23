@@ -52,30 +52,19 @@
         }
     ],
     "skills": [
-        {
-            "name": "JavaScript",
-            "level": "5"
-        },
-        {
-            "name": "React",
-            "level": "4"
-        },
-        {
-            "name": "Svelte",
-            "level": "3"
-        },
-        {
-            "name": "CSS",
-            "level": "5"
-        },
-        {
-            "name": "HTML",
-            "level": "5"
-        },
-        {
-            "name": "Git",
-            "level": "4"
-        }
+        "React.js",
+        "JavaScript",
+        "TypeScript",
+        "Redux",
+        "Svelte.js",
+        "HTML",
+        "CSS",
+        "SASS/SCSS",
+        "Bootstrap",
+        "react-bootstrap",
+        "formik",
+        "material-ui",
+        "git/github"
     ],
     "interests": ["Design", "Architecture", "Snowboarding", "Dogs🐶"]
 }

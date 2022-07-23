@@ -2,20 +2,11 @@
 @import './scss/fonts';
 
 .skills-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(10px, auto);
+    line-height: 0.8;
 }
 
 .skill {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin: 0;
     font-size: 1rem;
-    // font-weight: 200;
-    padding: 0 1rem 0 0;
 }
 
 h4.skill-name {
