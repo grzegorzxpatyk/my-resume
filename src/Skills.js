@@ -1,5 +1,4 @@
 import React from 'react';
-import Skill from './Skill';
 import './Skills.scss';
 
 export default function Skills(props) {
