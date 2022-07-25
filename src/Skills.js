@@ -4,7 +4,7 @@ import './Skills.scss';
 export default function Skills(props) {
     return (
         <section className="skills">
-            <h3 className="section-title">Skills</h3>
+            <h3 className="section-title">Technologies</h3>
             <div className="skills-list">
                 {props.skills.map((skill, skillIndex) => {
                     return (
