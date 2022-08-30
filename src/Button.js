@@ -19,6 +19,9 @@ const Button = styled('button', {
         outline: `3px solid ${blueA.blueA9}`,
         boxShadow: `0 0 15px ${blueA.blueA9}`,
     },
+    '@media print': {
+        display: 'none',
+    },
 
     variants: {
         variant: {
