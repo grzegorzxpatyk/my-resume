@@ -62,9 +62,9 @@
         "SASS/SCSS",
         "Bootstrap",
         "react-bootstrap",
-        "CSS-in-JS",
-        "Stitches",
-        "radix-ui",
+        "styled-components",
+        "stitches.js",
+        "Radix UI",
         "formik",
         "material-ui",
         "git/github"
