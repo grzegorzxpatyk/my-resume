@@ -60,13 +60,13 @@
         "HTML",
         "CSS",
         "SASS/SCSS",
+        "styled-components",
         "Bootstrap",
         "react-bootstrap",
-        "styled-components",
-        "stitches.js",
-        "Radix UI",
-        "formik",
         "material-ui",
+        "Radix UI",
+        "stitches.js",
+        "formik",
         "git/github"
     ],
     "interests": ["Design", "Architecture", "Snowboarding", "Dogs🐶"]
